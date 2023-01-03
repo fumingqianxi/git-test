@@ -61,6 +61,7 @@ public class MailSender implements InitializingBean {
         // 请配置自己的邮箱和密码
 
         mailSender.setPort(465);
+		// 设置协议
         mailSender.setProtocol("smtps");
         mailSender.setDefaultEncoding("utf8");
         Properties javaMailProperties = new Properties();

@@ -5,7 +5,7 @@
 
 	<groupId>com.nowcoder</groupId>
 	<artifactId>git-test</artifactId>
-	<version>1.1.2-SNAPSHOT</version>
+	<version>1.1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>toutiao</name>

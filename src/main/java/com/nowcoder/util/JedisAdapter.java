@@ -23,6 +23,7 @@ public class JedisAdapter implements InitializingBean{
     }
 
     public String get(String key){
+		// 初始化jedis为空
         Jedis jedis = null;
         try{
             jedis = pool.getResource();

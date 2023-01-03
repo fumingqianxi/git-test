@@ -31,6 +31,7 @@ public class JedisAdapter implements InitializingBean{
             logger.error("发生错误" + e.getMessage());
             return null;
         }finally {
+			// 关闭资源
             if(jedis != null){
                 jedis.close();
             }

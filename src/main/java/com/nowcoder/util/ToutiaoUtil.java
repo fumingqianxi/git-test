@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import java.security.MessageDigest;
 import java.util.Map;
 
-// 工具类-main
+// 工具类-dev
 public class ToutiaoUtil {
     private static final Logger logger = LoggerFactory.getLogger(ToutiaoUtil.class);
     public static String TOUTIAO_DOMAIN = "http://127.0.0.1:8080/";
